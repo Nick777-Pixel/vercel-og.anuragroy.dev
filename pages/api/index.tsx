@@ -16,11 +16,11 @@ const getAloeVera = fetch(
 ).then((res) => res.arrayBuffer());
 
 export default async function handler(req: NextRequest) {
-  const DEFAULT_TITLE = 'Anurag Roy';
+  const DEFAULT_TITLE = 'Nick T';
   const DEFAULT_DESCRIPTION =
-    'Full-stack developer and aspiring designer from Kolkata, India.';
+    'Full-stack developer and aspiring designer.';
   const DEFAULT_AVATAR = 'https://og.anuragroy.dev/memoji.png';
-  const DEFAULT_AUTHOR = 'anuragroy.dev';
+  const DEFAULT_AUTHOR = 'BannerBear.Vercel.App';
   const DEFAULT_THEME = 'rose';
 
   const [satoshi, clashDisplay, aloeVera] = await Promise.all([
