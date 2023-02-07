@@ -18,7 +18,7 @@ const getAloeVera = fetch(
 export default async function handler(req: NextRequest) {
   const DEFAULT_TITLE = 'Nick T';
   const DEFAULT_DESCRIPTION =
-    'Full-stack developer and aspiring designer.';
+    'Full-stack developer and designer.';
   const DEFAULT_AVATAR = 'https://bannerbear.vercel.app/memoji.png';
   const DEFAULT_AUTHOR = 'BannerBear.Vercel.App';
   const DEFAULT_THEME = 'rose';
