@@ -52,7 +52,7 @@ export function Main() {
           isTextArea={true}
         />
         <TextInput name="avatar" placeHolder="https://og.com/image.png" />
-        <TextInput name="author" placeHolder="Jane Smith" />
+        <TextInput name="author" placeHolder="John Smith" />
         <TextInput
           name="logo"
           defaultValue={defaultValues.logo}
