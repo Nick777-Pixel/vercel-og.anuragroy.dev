@@ -10,7 +10,7 @@ export function Main() {
 
   const defaultValues = {
     theme: 'rose',
-    title: 'Dynamic OG Images with @vercel/og',
+    title: 'Dynamic OG Banners with @vercel',
     description:
       "Taking a look at Vercel's new library to generate dynamic OpenGraph images",
     logo: '🎉',
