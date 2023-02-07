@@ -19,7 +19,7 @@ export default async function handler(req: NextRequest) {
   const DEFAULT_TITLE = 'Nick T';
   const DEFAULT_DESCRIPTION =
     'Full-stack developer and aspiring designer.';
-  const DEFAULT_AVATAR = 'https://og.anuragroy.dev/memoji.png';
+  const DEFAULT_AVATAR = 'https://bannerbear.vercel.app/memoji.png';
   const DEFAULT_AUTHOR = 'BannerBear.Vercel.App';
   const DEFAULT_THEME = 'rose';
 
