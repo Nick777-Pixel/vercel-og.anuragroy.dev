@@ -13,7 +13,7 @@ export function Main() {
     title: 'Dynamic OG Images with @vercel/og',
     description:
       "Taking a look at Vercel's new library to generate dynamic OpenGraph images",
-    logo: '🐦',
+    logo: '🎉',
   };
 
   const initialImageUrl = `${BASE_IMAGE_API_URL}?${new URLSearchParams(
